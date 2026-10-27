@@ -47,7 +47,7 @@ Les URLs pointent sur un **commit précis** : chaque version est figée et mise 
 <script>history.scrollRestoration='manual';window.scrollTo(0,0);</script>
 <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Cetezer44/marsea-webflow-custom-code@COMMIT/dist/global.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Cetezer44/marsea-webflow-custom-code@c71bd9dfc280f503c6d3d4f5db85615fe9777e26/dist/global.min.css">
 <!-- Google tag (gtag.js) : inchangé -->
 ```
 
@@ -56,18 +56,18 @@ Les URLs pointent sur un **commit précis** : chaque version est figée et mise 
 ```html
 <script defer src="https://cdn.jsdelivr.net/npm/lenis@1.3.19/dist/lenis.min.js"></script>
 <script defer src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-<script defer src="https://cdn.jsdelivr.net/gh/Cetezer44/marsea-webflow-custom-code@COMMIT/dist/global.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/gh/Cetezer44/marsea-webflow-custom-code@c71bd9dfc280f503c6d3d4f5db85615fe9777e26/dist/global.min.js"></script>
 ```
 
 ### Page L'équipe → Head
 
 ```html
 <script>document.documentElement.classList.add('team-js');</script>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Cetezer44/marsea-webflow-custom-code@COMMIT/dist/equipe.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Cetezer44/marsea-webflow-custom-code@c71bd9dfc280f503c6d3d4f5db85615fe9777e26/dist/equipe.min.css">
 ```
 
 ### Page L'équipe → Footer
 
 ```html
-<script defer src="https://cdn.jsdelivr.net/gh/Cetezer44/marsea-webflow-custom-code@COMMIT/dist/equipe.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/gh/Cetezer44/marsea-webflow-custom-code@c71bd9dfc280f503c6d3d4f5db85615fe9777e26/dist/equipe.min.js"></script>
 ```
