@@ -10,7 +10,7 @@ dist/  fichiers minifiés (générés, appelés par Webflow)
 | Fichier | Où | Contenu |
 |---|---|---|
 | `global.min.css` | Head du site | Accordéon, autofill des formulaires |
-| `global.min.js` | Footer du site | Lenis (+ GSAP ticker / ScrollTrigger), parallax `[data-parallax]`, mega menu, couleurs du header, accordéon |
+| `global.min.js` | Footer du site | Lenis (+ GSAP ticker / ScrollTrigger), parallax `[data-parallax]`, mega menu, couleurs du header, accordéon, et tous les scripts de pages (loader, menu plein écran, sliders Swiper, slider solution, slider approche, images préoccupations, aimantation section 5, vidéo Safari, auto-scroll et révélation texte À propos, nav Tarifs, cartes préoccupations). Chaque module ne s'exécute que si ses éléments sont présents. |
 | `equipe.min.css` | Head de la page L'équipe | Slider médecins, grille employés, modal |
 | `equipe.min.js` | Footer de la page L'équipe | Swiper, modal médecin, fondus d'apparition |
 
