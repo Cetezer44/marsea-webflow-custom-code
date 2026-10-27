@@ -445,7 +445,7 @@
     ];
     var state = imgEls.map(function () { return { tx: 0, ty: 0 }; });
     imgEls.forEach(function (el) { el.style.willChange = 'transform'; });
-    var mouseX = 0, mouseY = 0, running = false, visible = false;
+    var mouseX = 0, mouseY = 0;
     var rect = section.getBoundingClientRect();
     var updateRect = function () { rect = section.getBoundingClientRect(); };
     window.addEventListener('resize', updateRect);
@@ -454,7 +454,6 @@
     var lerp = function (a, b, t) { return a + (b - a) * t; };
 
     function animate() {
-      if (!visible) { running = false; return; }
       var relX = (mouseX - rect.left) / (rect.width || window.innerWidth) - 0.5;
       var relY = (mouseY - rect.top) / (rect.height || window.innerHeight) - 0.5;
       imgEls.forEach(function (el, i) {
@@ -475,11 +474,7 @@
       });
       requestAnimationFrame(animate);
     }
-    /* La boucle ne tourne que lorsque la section est visible (économise le CPU) */
-    new IntersectionObserver(function (entries) {
-      visible = entries[0].isIntersecting;
-      if (visible && !running) { running = true; updateRect(); requestAnimationFrame(animate); }
-    }).observe(section);
+    requestAnimationFrame(animate);
   }
 
   /* ---------- Slider "Notre approche" (accueil, à propos) ---------- */
@@ -604,7 +599,6 @@
     var target = document.querySelector('#sec-2-about');
     if (!target) return;
     setTimeout(function () {
-      if (window.scrollY > 50) return; /* l'utilisateur a déjà scrollé : on ne force pas */
       var top = target.getBoundingClientRect().top + window.scrollY;
       if (window.lenis) {
         window.lenis.scrollTo(top, { duration: 1.5, easing: function (t) { return t < 0.5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2; } });
