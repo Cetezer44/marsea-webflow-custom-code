@@ -1,0 +1,12 @@
+{
+  "name": "marsea-webflow-custom-code",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Code custom (CSS/JS) du site Webflow Marsea, servi via jsDelivr",
+  "scripts": {
+    "build": "node build.mjs"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.0"
+  }
+}
