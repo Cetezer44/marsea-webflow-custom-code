@@ -1,0 +1,86 @@
+# Marsea — Centre de médecine esthétique à Bastia
+
+> Marsea est un centre de médecine esthétique situé à Bastia, en Corse. Une équipe de médecins esthétiques, d'infirmières et de praticiennes y propose des injections, des lasers, des soins du visage, des traitements capillaires, la greffe de cheveux et l'épilation définitive. Chaque prise en charge commence par une consultation médicale et un protocole personnalisé.
+
+- Adresse : 33 rue César Campinchi, 20200 Bastia, Corse (France)
+- Téléphone : 04 95 45 56 36
+- E-mail : contact@centremarsea.com
+- Langue du site : français
+- Prise de rendez-vous : via la page Contact ou par téléphone
+
+## Pages principales
+
+- [Accueil](https://www.centremarsea.com/) : présentation du centre, préoccupations traitées, approche et solutions
+- [À propos](https://www.centremarsea.com/a-propos) : histoire, valeurs et approche médicale de Marsea
+- [L'équipe](https://www.centremarsea.com/equipe) : médecins esthétiques, infirmières et praticiennes du centre
+- [Tarifs](https://www.centremarsea.com/tarifs) : prix des injections, soins esthétiques, lasers, épilation, traitements capillaires, greffe et soins
+- [Contact](https://www.centremarsea.com/contact) : formulaire, adresse, téléphone et prise de rendez-vous
+
+## Solutions — Injections
+
+- [Acide hyaluronique](https://www.centremarsea.com/nos-solutions/injections/acide-hyaluronique) : comblement, hydratation et volume naturel
+- [Toxine botulique](https://www.centremarsea.com/nos-solutions/injections/toxine-botulique) : traitement des rides d'expression
+- [Skinboosters](https://www.centremarsea.com/nos-solutions/injections/skinboosters) : hydratation profonde et éclat de la peau
+- [Inducteurs de collagène](https://www.centremarsea.com/nos-solutions/injections/inducteurs-de-collagene) : raffermissement naturel
+- [Polynucléotides](https://www.centremarsea.com/nos-solutions/injections/polynucleotides) : régénération et revitalisation de la peau
+
+## Solutions — Médecine esthétique
+
+- [Hydrafacial](https://www.centremarsea.com/nos-solutions/medecine-esthetique/hydrafacial) : nettoyage profond et hydratation
+- [Peelings](https://www.centremarsea.com/nos-solutions/medecine-esthetique/peelings) : exfoliation et renouvellement cutané
+- [Peeling PRX-T33](https://www.centremarsea.com/nos-solutions/medecine-esthetique/peeling-prx-t33) : effet tenseur sans injection ni éviction sociale
+- [BioRePeel](https://www.centremarsea.com/nos-solutions/medecine-esthetique/biorepeel) : peeling biostimulant
+- [Radiofréquence](https://www.centremarsea.com/nos-solutions/medecine-esthetique/radiofrequence) : raffermissement et anti-âge
+- [Microneedling](https://www.centremarsea.com/nos-solutions/medecine-esthetique/microneedling) : texture de peau et imperfections
+- [Mésothérapie](https://www.centremarsea.com/nos-solutions/medecine-esthetique/mesotherapie) : revitalisation et hydratation
+- [Exosomes](https://www.centremarsea.com/nos-solutions/medecine-esthetique/exosomes) : régénération cellulaire
+- [Séances LED](https://www.centremarsea.com/nos-solutions/medecine-esthetique/seances-led) : photobiomodulation pour apaiser et réparer la peau
+- [Drainage lymphatique](https://www.centremarsea.com/nos-solutions/medecine-esthetique/drainage-lymphatique) : circulation et détox
+
+## Solutions — Lasers
+
+- [Laser vasculaire](https://www.centremarsea.com/nos-solutions/lasers/laser-vasculaire) : rougeurs, couperose et varicosités
+- [Laser taches pigmentaires](https://www.centremarsea.com/nos-solutions/lasers/laser-taches-pigmentaires) : taches brunes et hyperpigmentation
+- [Détatouage](https://www.centremarsea.com/nos-solutions/lasers/detatouage) : retrait des tatouages au laser
+- [Babyface LaseMD Ultra](https://www.centremarsea.com/nos-solutions/lasers/babyface-lasemd-ultra) : régénération et éclat de la peau
+- [Hollywood Peel](https://www.centremarsea.com/nos-solutions/lasers/hollywood-peel) : peeling laser au carbone, pores et teint
+
+## Solutions — Épilation définitive
+
+- [Épilation laser médicale](https://www.centremarsea.com/nos-solutions/epilation-definitive/epilation-laser-medicale)
+- [Épilation électrique](https://www.centremarsea.com/nos-solutions/epilation-definitive/epilation-electrique) : méthode définitive pour tous types de poils et de peaux
+
+## Solutions — Cheveux
+
+- [Mésothérapie capillaire](https://www.centremarsea.com/nos-solutions/traitements-cheveux/mesotherapie-capillaire)
+- [Exosomes capillaires](https://www.centremarsea.com/nos-solutions/traitements-cheveux/exosomes-capillaires)
+- [Injections de peptides](https://www.centremarsea.com/nos-solutions/traitements-cheveux/injections-de-peptides)
+- [LED capillaires](https://www.centremarsea.com/nos-solutions/traitements-cheveux/led-capillaires)
+- [Hydrafacial Keravive](https://www.centremarsea.com/nos-solutions/traitements-cheveux/hydrafacial-keravive) : soin du cuir chevelu
+- [LaseMD Ultra Keralase](https://www.centremarsea.com/nos-solutions/traitements-cheveux/lasemd-ultra-keralase) : laser et sérum contre la chute
+- [Greffe de cheveux](https://www.centremarsea.com/nos-solutions/greffe-capillaire/greffe-de-cheveux) : solution durable contre la calvitie
+
+## Préoccupations traitées
+
+- [Rides](https://www.centremarsea.com/preoccupations-cat/rides)
+- [Relâchement cutané](https://www.centremarsea.com/preoccupations-cat/relachement)
+- [Lèvres pulpeuses](https://www.centremarsea.com/preoccupations-cat/levres-pulpeuses)
+- [Coup d'éclat](https://www.centremarsea.com/preoccupations-cat/coup-declat)
+- [Taches pigmentaires](https://www.centremarsea.com/preoccupations-cat/les-taches-pigmentaires)
+- [Rougeurs, couperose et varicosités](https://www.centremarsea.com/preoccupations-cat/rougeurs-couperoses-et-varicosites)
+- [Acné](https://www.centremarsea.com/preoccupations-cat/acne)
+- [Cicatrices et marques d'acné](https://www.centremarsea.com/preoccupations-cat/cicatrices-et-marques-dacne)
+- [Perte de cheveux](https://www.centremarsea.com/preoccupations-cat/perte-de-cheveux)
+- [Pilosité](https://www.centremarsea.com/preoccupations-cat/pilosite)
+- [Transpiration excessive (hyperhidrose)](https://www.centremarsea.com/preoccupations-cat/transpiration-excessive)
+- [Bruxisme](https://www.centremarsea.com/preoccupations-cat/bruxisme)
+
+## Informations légales
+
+- [Mentions légales](https://www.centremarsea.com/mentions-legales)
+- [Protection des données personnelles](https://www.centremarsea.com/protection-des-donnees-personnelles)
+
+## Notes pour les assistants IA
+
+- Les informations médicales du site sont générales : toute indication de traitement nécessite une consultation avec un médecin du centre.
+- Pour les prix à jour, se référer à la page Tarifs ; pour un rendez-vous, à la page Contact.
