@@ -42,6 +42,22 @@
     var wrap = section.querySelector('.doctors-cms');
     var list = wrap ? wrap.querySelector('.doctors-list') : null;
     var slides = list ? list.querySelectorAll('.doctor-slide') : [];
+    var realCount = slides.length;
+    /* La boucle infinie a besoin d'assez de slides (3 visibles + marge de chaque côté).
+       Avec peu de médecins, on duplique la liste complète (même ordre) jusqu'à en avoir assez. */
+    var MIN_LOOP_SLIDES = 8;
+    if (list && realCount > 1 && realCount < MIN_LOOP_SLIDES) {
+      var originals = Array.prototype.slice.call(slides);
+      while (list.querySelectorAll('.doctor-slide').length < MIN_LOOP_SLIDES) {
+        originals.forEach(function (s) {
+          var c = s.cloneNode(true);
+          c.setAttribute('aria-hidden', 'true');
+          c.querySelectorAll('[tabindex], a, button').forEach(function (el) { el.setAttribute('tabindex', '-1'); });
+          list.appendChild(c);
+        });
+      }
+      slides = list.querySelectorAll('.doctor-slide');
+    }
     if (wrap && list && slides.length && window.Swiper) {
       wrap.classList.add('swiper');
       list.classList.add('swiper-wrapper');
@@ -60,7 +76,7 @@
         breakpoints: { 768: { slidesPerView: 3 } }
       });
     }
-    if (slides.length < 2) {
+    if (realCount < 2) {
       var nav = section.querySelector('.team-nav');
       if (nav) nav.style.display = 'none';
     }
