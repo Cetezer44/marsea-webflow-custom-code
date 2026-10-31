@@ -25,7 +25,8 @@
 @media (min-width: 768px) {
   .doctor-slide.swiper-slide-active .doctor-photo { width: 88.5%; }
   /* Hauteur fixe = hauteur de la photo active : les flèches ne bougent plus */
-  .doctors-list .doctor-slide { height: 39.4vw; }
+  /* + la place du nom sous la photo */
+  .doctors-list .doctor-slide { height: calc(39.4vw + 2.4rem); }
 }
 .doctor-card:focus-visible { outline: 1px solid #400d1c; outline-offset: 4px; }
 .doctor-card.is-hidden-source .doctor-photo { visibility: hidden; }
@@ -49,7 +50,8 @@
 
 /* ---------- Apparitions en fondu : état initial (animé par GSAP) ---------- */
 .team-js [data-fade-in],
-.team-js .doctor-photo { opacity: 0; }
+.team-js .doctor-photo,
+.team-js .doctor-name { opacity: 0; }
 
 /* ---------- Modal médecin ---------- */
 .doctor-modal.is-open { display: block; }

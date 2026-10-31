@@ -91,10 +91,19 @@
         .filter(function (p) { var r = p.getBoundingClientRect(); return r.right > 0 && r.left < window.innerWidth; })
         .sort(function (a, b) { return a.getBoundingClientRect().left - b.getBoundingClientRect().left; });
       var hidden = photos.filter(function (p) { return visible.indexOf(p) === -1; });
-      gsap.set(hidden, { opacity: 1 });
-      var doctorsIn = { opacity: 1, duration: 1.1, stagger: 0.22, ease: 'power2.out', delay: 0.2 };
-      if (ScrollTrigger && wrap) doctorsIn.scrollTrigger = { trigger: wrap, start: 'top 90%', once: true };
-      gsap.to(visible, doctorsIn);
+      /* Chaque photo apparaît avec le nom placé dessous */
+      var withName = function (p) {
+        var n = p.parentNode.querySelector('.doctor-name');
+        return n ? [p, n] : [p];
+      };
+      gsap.set([].concat.apply([], hidden.map(withName)), { opacity: 1 });
+      var doctorsTl = gsap.timeline({ paused: !!(ScrollTrigger && wrap) });
+      visible.forEach(function (p, i) {
+        doctorsTl.to(withName(p), { opacity: 1, duration: 1.1, ease: 'power2.out' }, 0.2 + i * 0.22);
+      });
+      if (ScrollTrigger && wrap) {
+        ScrollTrigger.create({ trigger: wrap, start: 'top 90%', once: true, onEnter: function () { doctorsTl.play(); } });
+      }
 
       /* Employés + fondatrice : léger fondu au scroll */
       section.querySelectorAll('[data-fade-in]').forEach(function (el) {
