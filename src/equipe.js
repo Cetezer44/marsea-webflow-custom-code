@@ -230,6 +230,10 @@
       if (isOpen || busy) return;
       busy = true; sourceCard = card; lastFocus = document.activeElement;
       setNavH();
+      /* Les noms et les flèches s'effacent pendant le centrage, avant la modal */
+      section.classList.add('names-ready');
+      void section.offsetWidth;
+      section.classList.add('is-focusing');
       var go = isDesktop() ? centerOn(card) : Promise.resolve();
       go.then(function () {
         /* après le slideToLoop, la carte au centre peut être un autre nœud : on la reprend */
@@ -254,6 +258,7 @@
 
     function closeModal() {
       if (!isOpen) return;
+      section.classList.remove('is-focusing');
       /* La photo revient en douceur au zoom qu'aura la photo source une fois la modal fermée */
       var clone = mPhoto.querySelector('img');
       if (clone && sourceCard) {

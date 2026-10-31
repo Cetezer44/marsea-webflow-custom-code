@@ -53,6 +53,12 @@
 .team-js .doctor-photo,
 .team-js .doctor-name { opacity: 0; }
 
+/* ---------- Clic sur un médecin : noms et flèches s'effacent pendant le centrage ---------- */
+.team-section .team-nav,
+.team-section.names-ready .doctor-name { transition: opacity 0.45s ease; }
+.team-section.is-focusing .team-nav,
+.team-section.is-focusing .doctor-name { opacity: 0 !important; pointer-events: none; }
+
 /* ---------- Modal médecin ---------- */
 .doctor-modal.is-open { display: block; }
 .doctor-modal-photo img {
