@@ -63,11 +63,11 @@ Les URLs pointent sur un **commit précis** : chaque version est figée et mise 
 
 ```html
 <script>document.documentElement.classList.add('team-js');</script>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Cetezer44/marsea-webflow-custom-code@0dd673b8cf2ec16045dc985e7a325a28c337604a/dist/equipe.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Cetezer44/marsea-webflow-custom-code@0d0ed930d0ff139635baf1f16ffd17092fc9a5e0/dist/equipe.min.css">
 ```
 
 ### Page L'équipe → Footer
 
 ```html
-<script defer src="https://cdn.jsdelivr.net/gh/Cetezer44/marsea-webflow-custom-code@0dd673b8cf2ec16045dc985e7a325a28c337604a/dist/equipe.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/gh/Cetezer44/marsea-webflow-custom-code@0d0ed930d0ff139635baf1f16ffd17092fc9a5e0/dist/equipe.min.js"></script>
 ```
