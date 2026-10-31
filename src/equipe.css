@@ -75,7 +75,10 @@
   cursor: url("https://cdn.prod.website-files.com/69c6997c1663b4f72ba08e1d/6ae0844451dca4409d673068_cursor-close.svg") 26 26, pointer;
 }
 .doctor-modal-bio p { margin-top: 0; margin-bottom: 1.4em; }
-.doctor-modal-bio p:last-child { margin-bottom: 0; }
+.doctor-modal-bio ul { margin: 0 0 1.4em; padding-left: 1.2em; }
+.doctor-modal-bio li { margin-bottom: 0.5em; }
+.doctor-modal-bio li:last-child { margin-bottom: 0; }
+.doctor-modal-bio > :last-child { margin-bottom: 0; }
 .doctor-modal.no-fav .doctor-modal-line,
 .doctor-modal.no-fav .doctor-modal-fav { display: none; }
 html.team-modal-open,
