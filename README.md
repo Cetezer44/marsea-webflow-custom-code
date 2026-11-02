@@ -47,7 +47,7 @@ Les URLs pointent sur un **commit précis** : chaque version est figée et mise 
 <script>history.scrollRestoration='manual';window.scrollTo(0,0);</script>
 <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Cetezer44/marsea-webflow-custom-code@762a69d27c413425e151d392e59dfaaae32aa824/dist/global.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Cetezer44/marsea-webflow-custom-code@20dde5c34131fc674ee11def60bb34d930f41abc/dist/global.min.css">
 <!-- Google tag (gtag.js) : inchangé -->
 ```
 
@@ -56,7 +56,7 @@ Les URLs pointent sur un **commit précis** : chaque version est figée et mise 
 ```html
 <script defer src="https://cdn.jsdelivr.net/npm/lenis@1.3.19/dist/lenis.min.js"></script>
 <script defer src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-<script defer src="https://cdn.jsdelivr.net/gh/Cetezer44/marsea-webflow-custom-code@762a69d27c413425e151d392e59dfaaae32aa824/dist/global.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/gh/Cetezer44/marsea-webflow-custom-code@20dde5c34131fc674ee11def60bb34d930f41abc/dist/global.min.js"></script>
 ```
 
 ### Page L'équipe → Head
