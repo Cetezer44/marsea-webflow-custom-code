@@ -717,6 +717,25 @@
     items.forEach(function (item) { observer.observe(item); });
   }
 
+  /* ---------- Apparition en fondu au scroll : [data-fade] ----------
+     Les éléments d'un même parent apparaissent l'un après l'autre. */
+  function initFadeIn() {
+    var els = document.querySelectorAll('[data-fade]');
+    if (!els.length || !('IntersectionObserver' in window)) return;
+    document.documentElement.classList.add('js-fade');
+    var observer = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (!entry.isIntersecting) return;
+        var el = entry.target;
+        var siblings = Array.prototype.filter.call(el.parentNode.children, function (c) { return c.hasAttribute('data-fade'); });
+        el.style.transitionDelay = (Math.max(0, siblings.indexOf(el)) * 0.15) + 's';
+        el.classList.add('is-in');
+        observer.unobserve(el);
+      });
+    }, { threshold: 0.2, rootMargin: '0px 0px -8% 0px' });
+    els.forEach(function (el) { observer.observe(el); });
+  }
+
   /* ---------- Lancement ---------- */
   function safe(fn) {
     try { fn(); } catch (e) { if (window.console) console.warn('[Marsea] ' + (fn.name || 'module') + ' :', e); }
@@ -725,7 +744,7 @@
   onReady(function () {
     [initLenis, initParallax, initMegaMenu, initHeaderStates, initAccordion,
      initLoader, initFullscreenMenu, initPreocHoverImages, initMagneticImages,
-     initSafariIllustration, initAboutAutoScroll, initTextReveal, initTarifsNav]
+     initSafariIllustration, initAboutAutoScroll, initTextReveal, initTarifsNav, initFadeIn]
       .forEach(safe);
 
     /* Modules qui attendaient le chargement complet / Webflow dans les embeds d'origine */

@@ -33,3 +33,12 @@ textarea:-webkit-autofill {
   box-shadow: transparent 0px 0px 0px 1000px inset !important;
   -webkit-text-fill-color: #ffffff !important;
 }
+
+/* ---------- Apparition en fondu au scroll ([data-fade], via global.js) ----------
+   html.js-fade est posé par le JS : sans JS (et dans le Designer) le texte reste visible. */
+.js-fade [data-fade] {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 1s cubic-bezier(0.22, 1, 0.36, 1), transform 1s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.js-fade [data-fade].is-in { opacity: 1; transform: none; }
